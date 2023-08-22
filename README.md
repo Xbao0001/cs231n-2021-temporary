@@ -4,14 +4,13 @@
 ## Overview 
 这是我学习深度学习和计算机视觉（Stanford cs231n）的记录(机器学习见[cs229](https://github.com/Xbao0001/cs229-temporary))。
 
+主要包括深度学习的算法、模块、公式推导和代码实现，均为独立完成。详见[课程大纲](http://cs231n.stanford.edu/2021/schedule.html)
 
-主要包括深度学习的算法、模块、公式推导和代码实现。详见[课程大纲](http://cs231n.stanford.edu/2021/schedule.html)
+- 比如常见Layer的前向和反向过程，例如Linear, Conv, ReLU, BatchNorm, GroupNorm, MaxPooling等等，详见[layers.py](./assignment2/cs231n/layers.py)
 
-比如常见Layer的前向和反向过程，例如Linear, Conv, ReLU, BatchNorm, GroupNorm, MaxPooling等等，详见[layers.py](./assignment2/cs231n/layers.py)
+- 常见优化器的实现，例如SGD, Momentum, RMSProp, Adam等，详见[optim.py](./assignment2/cs231n/optim.py)
 
-常见优化器的实现，例如SGD, Momentum, RMSProp, Adam等，详见[optim.py](./assignment2/cs231n/optim.py)
-
-常见模型和算法，例如，对比学习，Image Captioning, Gan, LSTM, Transformer等等，详见[文件夹](./assignment3/cs231n/)
+- 常见模型和算法，例如，对比学习，Image Captioning, Gan, LSTM, Transformer等等，详见[文件夹](./assignment3/cs231n/)
 
 以面试常问的BatchNorm为例：
 ```Python
